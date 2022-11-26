@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    margin: 1rem;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    border: 4px solid palevioletred;
+    /* border: none none; */
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    /* background: #e0e0e0; */
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+
+    /* background-color: black; */
+    /* height: 80% */
+}
+
+.cards:hover {
+    border: 4px solid palevioletred;
+    border-left: 2px solid palevioletred;
+    border-right: 2px solid palevioletred;
+    border-bottom: 2px solid palevioletred;
+    cursor: pointer;
+}

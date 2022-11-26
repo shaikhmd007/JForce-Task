@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    /* display: flex; */
+    background-color: #f2f2f2;
+}
+
+/* body {
+    background-color: black;
+} */
+
+.container-1 {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem;
+    width: 100%;
+    flex-wrap: wrap;
+    /* height: 100%; */
+}
+
+.container-1-1 {
+    display: flex;
+    justify-content: center;
+    /* width: auto; */
+}
+
+.container-1-2 {
+    /* border: 1px solid black; */
+    /* width: 40%; */
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* padding:1rem;
+     */
+}
+
+.container-1-2>a {
+    margin: 0.3rem;
+}
+
+.cards-recording {
+    display: flex;
+    margin: 0;
+    padding: 0.3em;
+    flex-wrap: wrap;
+}
+
+.ong-courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.ong-courses-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem;
+    width: 30vw;
+}
+
+.assignments-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem;
+    width: 60vw;
+}
+
+.announce-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.announce-container-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem;
+    width: 30vw;
+}
+
+.assignments-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem;
+    width: 60vw;
+}
+
+.expand {
+    height: 100%;
+    width: 90%;
+}
+
+.on-hide {
+    height: 100px;
+    width: 99vw;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #ffe4e4;
+    /* border: 1px solid black; */
+    /* color: white; */
+    /* border-radius: 0px; */
+    /* background: #e0e0e0; */
+    /* box-shadow: 20px 20px 60px #fffbfb,
+        -20px -20px 60px #fffbfb; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+@media screen and (max-width:590px) {
+    .container-1-1 {
+        font-size: small;
+    }
+
+    .container-1-2 {
+        font-size: x-small;
+    }
+
+    .detail-contents {
+        /* color: rebeccapurple; */
+        font-size: x-small;
+    }
+
+}
